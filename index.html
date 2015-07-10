@@ -1,1 +1,50 @@
-Hello world
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style/reset.css" charset="utf-8">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="style/main.css" charset="utf-8">
+  </head>
+  <body>
+<div class="container">
+  <span id="chips">Chips = $1000</span>
+  <span id="bet">Bet = $100</span>
+  <div class="gamePlay">
+
+    <span class="pure-button" id="dealhand">Deal</span>
+    <span class="pure-button" id="betup">+ Bet</span>
+    <span class="pure-button" id="betdown">-Bet</span>
+    <span class="pure-button" id="cardhit">Hit</span>
+    <span class="pure-button" id="cardstand">Stand</span>
+    </div>
+
+  <span id="viewWinner">set varfor winner wins</span>
+  <div class="" id="playscreen"></div>
+  <div id="cardTable">
+    <div class="playerSpace">
+
+    <p id="playerHandValuesUi">
+      Player hand is
+    </p>
+    <div id="playerCardUi"></div>
+    </div>
+    <div class="dealerSpace">
+    <p id="dealerHandValuesUi">
+    </p>
+    <div class="" id="dealerCardUi">
+    </div>
+    </div>
+  </div>
+
+<div class="" id="switchplayerscreen">
+  <span id="winnergame"></span>
+  <span id="startnewgame">Is Player X ready?</span>
+  <span>Score so far</span>
+</div>
+
+
+  </body>
+  <script src="javascript/app.js" charset="utf-8"></script>
+</html>
