@@ -279,7 +279,7 @@ function checkScore() {
     loseMatch();
     gameCount-=1;
   }
-  if (chips > 0) {
+  if (chips < 0) {
     console.log("you lose");
   }
   else {
